@@ -1,5 +1,5 @@
 body {
-  background-image: url('../../tv-maze-project/public/assets/tvBg.png');
+  background-image: url('../tv-maze-project/public/assets/tvBg.png');
   /* height: 80px; */
   overflow-y: auto;
   background-repeat: no-repeat;
