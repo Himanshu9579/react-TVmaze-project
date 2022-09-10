@@ -21,7 +21,7 @@
 }
 .outerDiv{
   width: 250px;
-  height: 500px;
+  padding: 2px 2px 10px 2px;
   background-color: rgb(27, 27, 54);
   overflow:hidden;
 }
@@ -41,6 +41,16 @@
 }
 .innerInput{
   display: flex;
+}
+.infoPara{
+  color: rgb(78, 126, 78);
+}
+.infoDiv{
+  color: gray; 
+}
+details > summary {
+  list-style: none;
+  cursor: pointer;
 }
 
 
