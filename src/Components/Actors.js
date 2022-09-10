@@ -7,7 +7,7 @@ function Actors(props) {
     <div className='outerDiv'>
           {actorImgSrc ? <img src={actorImgSrc} alt='no img found'/> : <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png' alt='no img found'/>}
           <div className='infoDiv'>
-              <p>{actorName}</p>
+              <p className='infoPara'>{actorName}</p>
               <p>{gender}</p>
           </div>
       </div>
