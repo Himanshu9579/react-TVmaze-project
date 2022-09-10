@@ -23,6 +23,7 @@ function FrontPage() {
             .then(res => res.json())
             .then(result => {
                 setShowData(result);
+                console.log(result)
             })
          }
     },[input])
